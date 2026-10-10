@@ -56,7 +56,7 @@ def main_game():
             
             # Mencari pemenang dengan skor tertinggi
             pemenang = max(skor, key=skor.get)
-            print(f"\n🏆 SELAMAT KEPADA {pemenang.toUpperCase() if hasattr(pemenang, 'toUpperCase') else pemenang.upper()} SEBAGAI PEMENANG! 🏆")
+            print(f"\n🏆 SELAMAT KEPADA {pemenang.upper()} SEBAGAI PEMENANG! 🏆")
             break
         else:
             print("Pilihan tidak valid, silakan coba lagi.")
